@@ -1,28 +1,4 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      pygments
+theme: jekyll-theme-architect
 
-# Permalinks
-permalink:        pretty
-  #relative_permalinks: true
-
-# Setup
-title:            SMASH
-tagline:          'Survey of the MAgellanic Clouds Stellar History (SMASH)'
-description:      'A DECam survey with the goal of identifying broadly distributed, low surface brightness stellar populations associated with the stellar halos and tidal debris of the MCs.'
-# url:              http://hyde.getpoole.com
-# baseurl:          /
-
-author:
-  name:           'Pol Massana'
-  url:            https://pmassana.github.io/
-
-paginate:         5
-
-# Custom vars
-version:          1.1.0
-
-github:
-  repo:           https://github.com/SMASHsurvey/
-
-plugins: [jekyll-paginate, jekyll-gist]
+plugins:
+  - jekyll-sitemap
